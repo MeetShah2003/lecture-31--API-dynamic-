@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student page</title>
+    <style>
+        #uimaker{
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+        }
+    </style>
+</head>
+<body bgcolor="#faebd7">
+    <form action="" id="form">
+        <table border="3" cellpadding="10" cellspacing="10">
+            <tbody>
+                <tr>
+                    <td><label for="">Image URL</label></td>
+                    <td><input type="url" id="img" placeholder="Enter URL"></td>
+                </tr>
+                <tr>
+                    <td><label for="">GRID</label></td>
+                    <td><input type="number" id="gr" placeholder="Enter grid"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Name</label></td>
+                    <td><input type="text" id="fullname" placeholder="Enter Student Name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" id="email" placeholder="Enter Email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" id="passwd" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Course</label></td>
+                    <td><input type="text" id="course" placeholder="Enter Course"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Mobile No</label></td>
+                    <td><input type="number" id="mono" placeholder="Enter MobNo"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><input type="submit" id="value"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    <div id="uimaker"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
